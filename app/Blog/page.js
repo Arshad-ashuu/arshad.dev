@@ -8,9 +8,10 @@ function page() {
   const [isLoading, setisLoading] = useState(true)
     const fetchData=async ()=>{
       try{
-      let res=await fetch("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=3b42beb0957b41128c87843558ef08df")
+      let res=await fetch("https://newsdata.io/api/1/news?apikey=pub_34465d0211fe47507cae607dea4572433dc5e&q=pizza")
       let data=await res.json();
-      setMynews(data.articles);
+      console.log(data.results)
+      setMynews(data.results);
       setisLoading(false);
       }catch(error){
           console.log(error);
@@ -62,17 +63,17 @@ function page() {
       </section>
           <div className='lg:flex lg:gap-x-8 lg:gap-y-8 flex flex-wrap gap-y-4 p-7 '> 
             {mynews.map((news) => (
-              <div key={Math.floor(Math.random() * 1000000)} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div key={news.article_id} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
                       <img className="rounded-t-lg" src="" alt="" />
                   </a>
                   <div className="p-5">
-                      <a href={news.url}>
+                      <a href={news.link}>
                           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             {news.title}</h5>
                       </a>
                       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        {news.publishedAt}</p>
+                        {news.description}</p>
                       
                   </div>
               </div>
