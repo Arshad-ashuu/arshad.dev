@@ -161,7 +161,7 @@ function Projects() {
                                   />
                                 </div>
                                 <div className="inline-flex text-sm  items-center font-medium bg-yellow-100/40 dark:bg-yellow-100/5 dark:text-red-400 text-yellow-600 rounded-full text-center px-2 h-5">
-                                  <a href="/" className='p-2'>Live</a>
+                                  <a href="https://arshad-dev.vercel.app/" className='p-2'>Live</a>
                                 </div>
                               </div>
                               <div className="text-lg font-aspekta font-[650] mb-1">
