@@ -19,9 +19,10 @@ function MainContent() {
               <div className="max-w-[700px]">
                 <div className="pt-8 pb-10">
                   
-                  <video width="1500" height="500" autoPlay loop className='border rounded-2xl border-none'>
-                    <source src="/banner.mp4" type="video/mp4" />
-                  </video>
+                 <video width="1500" height="500" autoPlay loop className='border rounded-2xl border-none'>
+  <source src="/banner.mp4" type="video/mp4" />
+</video>
+
 
                   <p className="font-aspekta mb-2 mt-3 text-2xl font-medium">
                     Hi👋🏻, I'm{" "}
