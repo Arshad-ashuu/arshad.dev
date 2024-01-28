@@ -102,6 +102,54 @@ function Projects() {
                             </div>
                           </div>
                         </div>
+                  <div
+                          className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-5"
+                        
+                        >
+                          <div className="flex flex-col h-full">
+                            <div className="grow">
+                              <div className="flex items-center justify-between">
+                                <div className="h-10 w-10 flex items-center justify-center border border-slate-200 dark:border-slate-700 rounded-full mb-2">
+                                  <img
+                                    alt="Edcomposer"
+                                    loading="lazy"
+                                    decoding="async"
+                                    data-nimg={1}
+                                    width={52}
+                                    height={48}
+                                    className="rounded-full h-10 w-18"
+                                    src="./bgr.gif"
+                                  
+                                  />
+                                </div>
+                                <div className="inline-flex text-sm  items-center font-medium bg-yellow-100/40 dark:bg-yellow-100/5 dark:text-red-400 text-yellow-600 rounded-full text-center px-2 h-5">
+                                  <a href="https://clinquant-sopapillas-f99be9.netlify.app/" className='p-2'>Live</a>
+                                </div>
+                              </div>
+                              <div className="text-lg font-aspekta font-[650] mb-1">
+                              Background Remover
+                              </div>
+                              <a  href='https://clinquant-sopapillas-f99be9.netlify.app/' target='_blank'>
+                              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2 ">
+                              Background remover website to remove background of any image 
+                                <br/>
+                                <span className='font-normal text-sm dark:text-green-400 text-green-600'>
+                                built on : React , Tailwind ,Api
+                                </span>
+                              </p></a>
+                            </div>
+                            <div className="text-sky-500 flex justify-end">
+                              <svg
+                                className="fill-current"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={14}
+                                height={12}
+                              >
+                                <path d="M9.586 5 6.293 1.707 7.707.293 13.414 6l-5.707 5.707-1.414-1.414L9.586 7H0V5h9.586Z" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
 
                         <div 
                           className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-5"
