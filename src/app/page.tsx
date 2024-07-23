@@ -223,8 +223,13 @@ export default function Page() {
                 >
                   with a direct question on twitter
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                 or I&apos; drop a{" "}
+                <Link
+                  href={DATA.contact.social.email.url}
+                  className="text-blue-500 hover:underline"
+                >
+                  mail
+                </Link>
               </p>
             </div>
           </BlurFade>
