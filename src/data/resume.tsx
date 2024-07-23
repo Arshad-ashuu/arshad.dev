@@ -4,7 +4,7 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   name: "Arshad",
   initials: "MA",
-  url: "https://dillion.io",
+  url: "https://arshad-dev.vercel.app/",
   location: "Hyderabed",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description: "fullstack developer. I love building things .",
@@ -31,26 +31,26 @@ export const DATA = {
     { href: "#", icon: PencilLine, label: "Notes" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "mohammadarshad01474@gmail.com",
+    tel: "+91 9346108603",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Arshad-ashuu",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/mohammad-arshad-b47b60294",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/Arshad_1_0 ",
         icon: Icons.x,
 
         navbar: true,
@@ -214,8 +214,7 @@ export const DATA = {
       description:
         "MusicLab a Platform to create music using virtual instruments ,invite friends to rooms,chat ,Publish music and record music.",
 
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+      image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -227,8 +226,27 @@ export const DATA = {
       location: "Bhavans Vivkananda college",
       description:
         "Head Coordinator of Fusion Tech Club of Bhavans Vivkananda college ",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+      image: "",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
+    },
+    {
+      title: "National Science Day 2024",
+      dates: "2024",
+      location: "Bhavans Vivkananda college",
+      description:
+        "secured first place in android app development counducted by my University developed cake order app and news app",
+      image: "",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
+    },
+    {
+      title: "National Science Day 2023",
+      dates: "2023",
+      location: "Bhavans Vivkananda college",
+      description:
+        "secured second place in android app development counducted by my University developed simple video sharing app",
+      image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
