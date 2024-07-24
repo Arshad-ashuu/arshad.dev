@@ -6,7 +6,7 @@ export const DATA = {
   initials: "MA",
   url: "https://arshad-dev.vercel.app/",
   location: "Hyderabed",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "#",
   description: "fullstack developer. I love building things .",
   summary:
     "Fullstack developer with experience MERN Stack and React Native , I love contributing to open source pojects and communities Currently persuing BCA from Bhavans Vivekananda college.",
@@ -69,7 +69,7 @@ export const DATA = {
   education: [
     {
       school: "Bhavans Vivekananda college",
-      href: "https://uwaterloo.ca",
+      href: "https://www.bhavansvc.ac.in/",
       degree: "Bachelor's Degree of Computer Application (B.C.A)",
       logoUrl: "",
       start: "2022",
@@ -77,7 +77,7 @@ export const DATA = {
     },
     {
       school: "Geetanjali Junior collge",
-      href: "https://wlu.ca",
+      href: "#",
       degree: "Bi.p.c",
       logoUrl: "",
       start: "2022",
@@ -85,7 +85,7 @@ export const DATA = {
     },
     {
       school: "Mahathi Vidya Niketan High School",
-      href: "",
+      href: "#",
       degree: "S.S.C",
       logoUrl: "",
       start: "2021",
@@ -124,7 +124,7 @@ export const DATA = {
     },
     {
       title: "Poland",
-      href: "https://magicui.design",
+      href: "#",
       dates: "June 2023 - Present",
       active: true,
       description:
@@ -146,7 +146,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "#",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -155,7 +155,7 @@ export const DATA = {
     },
     {
       title: "Drop",
-      href: "https://llm.report",
+      href: "#",
 
       active: true,
       description:
@@ -164,7 +164,7 @@ export const DATA = {
       links: [
         {
           type: "App",
-          href: "https://llm.report",
+          href: "#",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -176,35 +176,7 @@ export const DATA = {
       image: "/poland.png",
       video: "",
     },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
+   
   ],
   hackathons: [
     {
