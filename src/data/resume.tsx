@@ -26,9 +26,9 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/Achivements", icon: NotebookIcon, label: "Achivements" },
+    // { href: "/Achivements", icon: NotebookIcon, label: "Achivements" },
     { href: "/projects", icon: CodeIcon, label: "Projects" },
-    { href: "#", icon: PencilLine, label: "Notes" },
+    // { href: "#", icon: PencilLine, label: "Notes" },
   ],
   contact: {
     email: "mohammadarshad01474@gmail.com",
