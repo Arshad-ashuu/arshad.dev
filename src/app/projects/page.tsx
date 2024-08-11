@@ -8,7 +8,7 @@ export default function page() {
   return (
     <>
       <div className="mt-12  grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[1000px] mx-auto">
-        {DATA.Allprojects.map((project, id) => (
+        {DATA.projects.map((project, id) => (
           <BlurFade
             key={project.title}
             delay={BLUR_FADE_DELAY * 12 + id * 0.05}
