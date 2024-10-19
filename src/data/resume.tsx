@@ -17,6 +17,7 @@ export const DATA = {
     "Typescript",
     "Node.js",
     "Mongodb",
+    "SQL",
     "PostGreSQL",
     "Express.js",
     "socket.io",
