@@ -1,27 +1,33 @@
-export function mapRepoToProject(repo: any): {
-  title: string;
-  description: string;
-  href: string;
-  technologies: string[];
-  image?: string;
-  video?: string;
-  links?: {
-    title: string;
-    href: string;
-  }[];
-} {
+import React from "react";
+import { Github, ExternalLink } from "lucide-react";
+
+export function mapRepoToProject(repo: any) {
   return {
     title: repo.name,
     description: repo.description ?? "No description provided",
     href: repo.html_url,
-    technologies: repo.topics?.filter(
-      (t: string) => t !== "portfolio"
-    ) ?? [],
+
+    technologies:
+      repo.topics?.filter(
+        (topic: string) => topic !== "portfolio"
+      ) ?? [],
+
     image: `/projects/${repo.name}.png`,
     video: undefined,
+
     links: [
-      { title: "GitHub", href: repo.html_url },
-      repo.homepage && { title: "Live", href: repo.homepage },
+      {
+        icon: <Github className="h-4 w-4" />,
+        type: "GitHub",
+        href: repo.html_url,
+      },
+      repo.homepage
+        ? {
+            icon: <ExternalLink className="h-4 w-4" />,
+            type: "Live",
+            href: repo.homepage,
+          }
+        : null,
     ].filter(Boolean),
   };
 }
