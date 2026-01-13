@@ -22,10 +22,12 @@ type Project = {
   image?: string;
   video?: string;
   links?: {
-    title: string;
+    icon: React.ReactNode;
+    type: string;
     href: string;
   }[];
 };
+
 
 export default async function Page() {
  const repos = await getPortfolioProjects();
@@ -275,5 +277,6 @@ export default async function Page() {
     </main>
   );
 }
+
 
 
