@@ -14,10 +14,22 @@ import { mapRepoToProject } from "@/lib/project-mapper";
 
 const BLUR_FADE_DELAY = 0.04;
 
+type Project = {
+  title: string;
+  description: string;
+  href: string;
+  technologies: string[];
+  image?: string;
+  video?: string;
+  links?: {
+    title: string;
+    href: string;
+  }[];
+};
+
 export default async function Page() {
  const repos = await getPortfolioProjects();
-  const projects = repos.map(mapRepoToProject);
-
+ const projects: Project[] = repos.map(mapRepoToProject);
   
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
@@ -263,4 +275,5 @@ export default async function Page() {
     </main>
   );
 }
+
 
