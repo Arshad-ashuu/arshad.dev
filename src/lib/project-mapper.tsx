@@ -8,9 +8,7 @@ export function mapRepoToProject(repo: any) {
     href: repo.html_url,
 
     technologies:
-      repo.topics?.filter(
-        (topic: string) => topic !== "portfolio"
-      ) ?? [],
+      repo.topics?.filter((t: string) => t !== "portfolio") ?? [],
 
     image: `/projects/${repo.name}.png`,
     video: undefined,
