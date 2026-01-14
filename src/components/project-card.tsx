@@ -59,13 +59,15 @@ export function ProjectCard({
           />
         )}
         {image && (
-          <Image
-            src={image}
-            alt={title}
-            width={100}
-            height={40}
-            className="h-40 w-full overflow-hidden object-cover object-top"
-          />
+         <Image
+    src={image}
+    alt={title}
+    width={1200}
+    height={630}
+    className="h-40 w-full object-cover object-center"
+    sizes="(max-width: 768px) 100vw, 450px"
+    priority={false}
+  />
         )}
       </Link>
       <CardHeader className="px-2">
@@ -111,3 +113,4 @@ export function ProjectCard({
     </Card>
   );
 }
+
