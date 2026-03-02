@@ -13,18 +13,18 @@ export const DATA = {
   avatarUrl: "",
   skills: [
     "React",
-    "Next.js",
-    "Typescript",
     "Node.js",
     "Mongodb",
     "SQL",
     "PostGreSQL",
     "Express.js",
-    "socket.io",
     "React Native",
     "Python",
     "Go",
-    "Java",
+    "Docker",
+    "Jenkins",
+    "Terraform"
+    "Azure"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -226,3 +226,4 @@ export const DATA = {
     },
   ],
 } as const;
+
