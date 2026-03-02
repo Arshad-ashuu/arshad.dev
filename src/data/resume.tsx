@@ -23,7 +23,7 @@ export const DATA = {
     "Go",
     "Docker",
     "Jenkins",
-    "Terraform"
+    "Terraform",
     "Azure"
   ],
   navbar: [
@@ -226,4 +226,5 @@ export const DATA = {
     },
   ],
 } as const;
+
 
