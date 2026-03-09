@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://arshad-dev.vercel.app/",
   location: "Hyderabed",
   locationLink: "#",
-  description: "Full-stack developer exploring DevOps, cloud infrastructure, and AI systems. I enjoy building tools, automating workflows, and deploying scalable applications.",
+  description: "Full-stack developer exploring DevOps, cloud infrastructure, and AI systems.",
   summary:
     "I'm a full-stack developer currently working in the industry and exploring DevOps, cloud infrastructure, and AI systems. My background is in building web and mobile applications with the MERN stack and React Native.Lately I've been focusing on Docker, Terraform, CI/CD pipelines, Azure, and experimenting with AI tools. I'm working toward becoming a DevOps and cloud engineer focused on building scalable, automated systems.",
   avatarUrl: "",
@@ -226,6 +226,7 @@ export const DATA = {
     },
   ],
 } as const;
+
 
 
 
