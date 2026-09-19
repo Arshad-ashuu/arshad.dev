@@ -5,26 +5,28 @@ export const DATA = {
   name: "Arshad",
   initials: "MA",
   url: "https://arshad-dev.vercel.app/",
-  location: "Hyderabed",
+  location: "Pune, India",
   locationLink: "#",
-  description: "Full-stack developer exploring DevOps, cloud infrastructure, and AI systems.",
+  description:
+    "Cloud Solution Architect at Microsoft. Full-stack background, now building on Azure, IaC, and AI systems.",
   summary:
-    "I'm a full-stack developer currently working in the industry and exploring DevOps, cloud infrastructure, and AI systems. My background is in building web and mobile applications with the MERN stack and React Native.Lately I've been focusing on Docker, Terraform, CI/CD pipelines, Azure, and experimenting with AI tools. I'm working toward becoming a DevOps and cloud engineer focused on building scalable, automated systems.",
+    "I'm a Cloud Solution Architect working with customers on Azure, infrastructure as code, and AI platform adoption. I started out as a full-stack developer building web and mobile products with the MERN stack and React Native, and that engineering background still shapes how I approach architecture. These days most of my time goes into Terraform and Bicep, landing zones, AKS, CI/CD with GitHub Actions and Azure DevOps, and hands-on work with Azure AI Foundry, GitHub Copilot, and agentic workflows. I like automating the boring parts, documenting what I build so others can repeat it, and turning messy environments into scalable, well-governed ones.",
   avatarUrl: "",
   skills: [
-    "React",
-    "Node.js",
-    "Mongodb",
-    "SQL",
-    "PostGreSQL",
-    "Express.js",
-    "React Native",
-    "Python",
-    "Go",
-    "Docker",
-    "Jenkins",
+    "Azure",
     "Terraform",
-    "Azure"
+    "Bicep",
+    "Docker",
+    "GitHub Actions",
+    "Jenkins",
+    "PowerShell",
+    "Python",
+    "Azure AI Foundry",
+    "GitHub Copilot",
+    "React.Js",
+    "React Native",
+    "MongoDB",
+    "PostgreSQL",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -52,7 +54,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/Arshad_1_0 ",
+        url: "https://x.com/Arshad_1_0",
         icon: Icons.x,
 
         navbar: true,
@@ -60,7 +62,7 @@ export const DATA = {
 
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mohammadarshad01474@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -70,7 +72,7 @@ export const DATA = {
 
   education: [
     {
-      school: "Bhavans Vivekananda college",
+      school: "Bhavan's Vivekananda College",
       href: "https://www.bhavansvc.ac.in/",
       degree: "Bachelor's Degree of Computer Application (B.C.A)",
       logoUrl: "",
@@ -78,9 +80,9 @@ export const DATA = {
       end: "2025",
     },
     {
-      school: "Geetanjali Junior collge",
+      school: "Geetanjali Junior College",
       href: "#",
-      degree: "Bi.p.c",
+      degree: "Bi.P.C",
       logoUrl: "",
       start: "2020",
       end: "2022",
@@ -100,17 +102,16 @@ export const DATA = {
       href: "https://musiclab.onrender.com",
       active: true,
       description:
-        "MusicLab a Platform to create music using virtual instruments ,invite friends to rooms,chat ,Publish music and record music.",
+        "A platform to create music with virtual instruments — invite friends to rooms, chat, record, and publish tracks.",
       technologies: [
         "React",
         "Node.js",
         "MongoDB",
-        "Typescript",
-        "MongoDb",
+        "TypeScript",
         "Firebase",
         "TailwindCSS",
-        "socket.io",
-        "tone.js",
+        "Socket.IO",
+        "Tone.js",
         "Shadcn UI",
       ],
       links: [
@@ -130,14 +131,14 @@ export const DATA = {
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Program Language detector trained differemt models to detect variours languages using code snippets [ IEEE project & Research paper].",
+        "Programming language detector — trained and compared multiple models to identify languages from code snippets. IEEE project and research paper.",
       technologies: [
         "Python",
         "Machine Learning",
-        "Github Gist",
+        "GitHub Gist",
         "Flask",
         "TailwindCSS",
-        "html",
+        "HTML",
         "JavaScript",
       ],
       links: [
@@ -161,7 +162,7 @@ export const DATA = {
 
       active: true,
       description:
-        "Developed a video sharing Native application to share videos.",
+        "A video sharing mobile application built with React Native and Appwrite.",
       technologies: ["React Native", "Appwrite", "Appwrite Auth"],
       links: [
         {
@@ -171,14 +172,13 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "#",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/poland.png",
       video: "",
     },
-   
   ],
   hackathons: [
     {
@@ -186,7 +186,7 @@ export const DATA = {
       dates: "May 1 - 15th, 2024",
       location: "Delhi",
       description:
-        "MusicLab a Platform to create music using virtual instruments ,invite friends to rooms,chat ,Publish music and record music.",
+        "Built MusicLab — a platform to create music with virtual instruments, collaborate in rooms, chat, record, and publish tracks.",
 
       image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -197,9 +197,9 @@ export const DATA = {
     {
       title: "Fusion Tech Co-ordinator",
       dates: "2024 - 2025",
-      location: "Bhavans Vivkananda college",
+      location: "Bhavan's Vivekananda College",
       description:
-        "Head Coordinator of Fusion Tech Club of Bhavans Vivkananda college ",
+        "Head Coordinator of the Fusion Tech Club at Bhavan's Vivekananda College.",
       image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
@@ -207,9 +207,9 @@ export const DATA = {
     {
       title: "National Science Day 2024",
       dates: "2024",
-      location: "Bhavans Vivkananda college",
+      location: "Bhavan's Vivekananda College",
       description:
-        "secured first place in android app development counducted by my University developed cake order app and news app",
+        "Secured first place in the Android app development contest conducted by my university — built a cake ordering app and a news app.",
       image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
@@ -217,16 +217,12 @@ export const DATA = {
     {
       title: "National Science Day 2023",
       dates: "2023",
-      location: "Bhavans Vivkananda college",
+      location: "Bhavan's Vivekananda College",
       description:
-        "secured second place in android app development counducted by my University developed simple video sharing app",
+        "Secured second place in the Android app development contest conducted by my university — built a simple video sharing app.",
       image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
   ],
 } as const;
-
-
-
-
